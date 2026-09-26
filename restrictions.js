@@ -1,4 +1,4 @@
-const restrictionMessage = "This action is restricted, please contact Vikramjit for more details.";
+const restrictionMessage = "This action is restricted, please contact admin for more details.";
 let isInternalAction = false;
 
 // Helper to get master config from window.CV_MASTER_CONFIG
