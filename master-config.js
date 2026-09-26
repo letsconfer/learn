@@ -3,22 +3,22 @@
 // ==========================================
 window.CV_MASTER_CONFIG = {
     // 1. Security & Interaction Controls
-    allowRightClick: false,     // false = Restricted (Default), true = Allowed
+    allowRightClick: false,      // false = Restricted (Default), true = Allowed
     allowLeftClick: false,       // true = Normal clicks, false = Blocks selection/clicks
-    allowScreenshot: false,     // false = Blocks PrintScreen/shortcuts, true = Allowed
+    allowScreenshot: false,      // false = Blocks PrintScreen/shortcuts, true = Allowed
     
     // 2. Toolbar Icon Controls
     showDownloadIcon: false,     // true = Show PDF download icon, false = Hidden
-    showThemeIcon: true,        // true = Show Theme toggle icon, false = Hidden
+    showThemeIcon: true,         // true = Show Theme toggle icon, false = Hidden
     
-    // 3. Profile Image Setting (Filename or uploaded image path)
-    profileImage: "me.jpeg"     // Default profile image file
+    // 3. Profile Image Setting
+    profileImage: "me.jpeg",     // <--- Added missing comma
 
-    // 4. Fixed homepage to language.html)
-    homePage: "./language.html"   // or "../language.html" depending on your folder structure}
+    // 4. Fixed homepage
+    homePage: "./language.html", // <--- Removed stray '}' and added comma
 
-     // 5. Favicon Setting
-        favicon: "logo1.png"          // Favicon image file path
+    // 5. Favicon Setting
+    favicon: "logo1.png"         // Favicon image file path
 };
 
 // ==========================================
